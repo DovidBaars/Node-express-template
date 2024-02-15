@@ -17,3 +17,8 @@ model Session {
   accessToken String
   userId      BigInt?
 }
+
+model Customer {
+  shopifyId String @id
+  savedCart Json
+}
